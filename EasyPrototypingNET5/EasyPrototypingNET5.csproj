@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Authors>Gerhard Ahrens</Authors>
+    <Company>Lifeprojects.de</Company>
+    <Version>0.1.2021.1</Version>
+    <Description>Development Library for C# (NET 5)</Description>
+    <Copyright>Copyright © Lifeprojects  2021</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Extension\Core\" />
+    <Folder Include="Extension\Types\" />
+  </ItemGroup>
+
+</Project>
