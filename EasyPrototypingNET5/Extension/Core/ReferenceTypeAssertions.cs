@@ -1,11 +1,11 @@
 ﻿//-----------------------------------------------------------------------
 // <copyright file="ReferenceTypeAssertions.cs" company="Lifeprojects.de">
 //     Class: ReferenceTypeAssertions
-//     Copyright © Lifeprojects.de 2021
+//     Lifeprojects.de 2021
 // </copyright>
 //
 // <author>Gerhard Ahrens - Lifeprojects.de</author>
-// <email>gerhard.ahrens@lifeprojects.de</email>
+// <email>developer@lifeprojects.de</email>
 // <date>28.04.2021</date>
 //
 // <summary>

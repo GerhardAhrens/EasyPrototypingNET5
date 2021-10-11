@@ -2,7 +2,8 @@
 Developer Library for NET (for Core 5)
 
 Diese Bibliothek soll verschiedene Aspekte zur Entwicklung von C# Applikationen unter Microsoft NET (5.0) abdecken. 
-Meine bereits vorhandene Microsoft Framework 4.8 Bibliothek wir Stück für Stück soweit es Sinn macht nach aktuelle Microsoft NET (5.0) migriert.
+Meine bereits vorhandene Microsoft Framework 4.8 Bibliothek wir Stück für Stück soweit es Sinn macht nach aktuelle Microsoft NET (5.0) migriert. Die Bibliothek besteht zu einem Teil aus Extension Methoden für verschiedene Typen, 
+aber auch aus Klassen zum Thema Custom Data Types, Custom Comparer, Text Analyse, und einiges mehr. 
 
 ## Typ Extension Methoden
 ### Extension Methoden und Fluent-Design
@@ -27,5 +28,5 @@ Hier erfolgt die Auslistung der Extension erst nach dem ```.This()```.
 | Typ Extension for       | Description                                                                                                                                                                                                         |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Bool                    | Extension Methodes of Typ bool                                                                                                                                                                                      |
-
+| Char                    | Extension Methodes of Typ char                                                                                                                                                                                      |
 

@@ -1,12 +1,12 @@
 ﻿//-----------------------------------------------------------------------
 // <copyright file="FluentColorExtension_Test.cs" company="PTA GmbH">
 //     Class: FluentColorExtension_Test
-//     Copyright © PTA GmbH 2021
+//     Lifeprojects.de 2021
 // </copyright>
 //
-// <author>Gerhard Ahrens - PTA GmbH</author>
-// <email>gerhard.ahrens@pta.de</email>
-// <date>07.05.2021</date>
+// <author>Gerhard Ahrens - Lifeprojects.de</author>
+// <email>developer@lifeprojects.de</email>
+// <date>12.05.2021</date>
 //
 // <summary>
 // UnitTest for

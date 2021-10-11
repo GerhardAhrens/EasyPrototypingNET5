@@ -1,11 +1,11 @@
 ﻿//-----------------------------------------------------------------------
 // <copyright file="StringFluentExtension.cs" company="Lifeprojects.de">
 //     Class: StringFluentExtension
-//     Copyright © Lifeprojects.de 2021
+//     Lifeprojects.de 2021
 // </copyright>
 //
 // <author>Gerhard Ahrens - Lifeprojects.de</author>
-// <email>gerhard.ahrens@lifeprojects.de</email>
+// <email>developer@lifeprojects.de</email>
 // <date>28.04.2021</date>
 //
 // <summary>
@@ -35,6 +35,16 @@ namespace EasyPrototyping.FluentAPI
         public static FluentBool This(this bool? @this)
         {
             return new FluentBool(@this);
+        }
+
+        /// <summary>
+        /// Die Methode stellt Extenstion Methodes für den Typ Char zur Verfügung
+        /// </summary>
+        /// <param name="this">Value vom Typ</param>
+        /// <returns></returns>
+        public static FluentChar This(this char @this)
+        {
+            return new FluentChar(@this);
         }
     }
 }

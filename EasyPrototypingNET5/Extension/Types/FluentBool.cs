@@ -1,11 +1,11 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="FluentBool.cs" company="PTA GmbH">
+// <copyright file="FluentBool.cs" company="Lifeprojects.de">
 //     Class: FluentBool
-//     Copyright © PTA GmbH 2021
+//     Lifeprojects.de 2021
 // </copyright>
 //
-// <author>Gerhard Ahrens - PTA GmbH</author>
-// <email>gerhard.ahrens@pta.de</email>
+// <author>Gerhard Ahrens - Lifeprojects.de</author>
+// <email>developer@lifeprojects.de</email>
 // <date>12.05.2021</date>
 //
 // <summary>
