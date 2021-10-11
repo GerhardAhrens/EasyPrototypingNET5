@@ -10,9 +10,10 @@ Extension Methoden können hilfreich aber auch problematisch sein. So wird häuf
 zu einem Typ mehr Extension Methoden angezeigt werden, als es tatsächlich Sinn macht. Hier habe ich versucht eine alternative Nutzung der Extension zu finden.
 
 ### Bekannte Verwendung von Extension
+```
 bool input = true;
 string resut = input.ToYesNoString();
-
+```
 
 | Typ Extension for       | Description                                                                                                                                                                                                         |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
