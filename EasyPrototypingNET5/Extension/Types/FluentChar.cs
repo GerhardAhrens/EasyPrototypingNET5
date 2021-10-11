@@ -1,7 +1,7 @@
 ﻿//-----------------------------------------------------------------------
 // <copyright file="Fluent.cs" company="Lifeprojects.de">
 //     Class: Fluent
-//     Copyright © PTA GmbH 2021
+//     Lifeprojects.de 2021
 // </copyright>
 //
 // <author>Gerhard Ahrens - Lifeprojects.de</author>
