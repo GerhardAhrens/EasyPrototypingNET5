@@ -35,6 +35,10 @@ namespace EasyPrototyping.FluentAPI
         }
     }
 
+    /// <summary>
+    /// Gibt den Referenztyp von der Extension Klasse weiter
+    /// </summary>
+    /// <typeparam name="TAssertions"></typeparam>
     public class FluentBool<TAssertions> : ReferenceTypeAssertions<bool?, TAssertions> where TAssertions : FluentBool<TAssertions>
     {
         public FluentBool(bool? value) : base(value)
