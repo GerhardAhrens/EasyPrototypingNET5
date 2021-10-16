@@ -156,6 +156,30 @@ namespace System
             }
         }
 
+        public static T IsArgumentOutOfRange<T>(this T @this, string paramName, bool conditon) where T : IComparable<T>
+        {
+            if (conditon == true)
+            {
+                throw new ArgumentOutOfRangeException(paramName);
+            }
+            else
+            {
+                return @this;
+            }
+        }
+
+        public static T IsArgumentOutOfRange<T>(this T @this, string paramName, Func<bool> predicate) where T : IComparable<T>
+        {
+            if (predicate() == false)
+            {
+                throw new ArgumentOutOfRangeException(paramName);
+            }
+            else
+            {
+                return @this;
+            }
+        }
+
         public static void IsArgumentInEnum(this Enum @this, string paramName)
         {
             if (@this == null)

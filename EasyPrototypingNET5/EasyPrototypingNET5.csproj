@@ -11,6 +11,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Core\Cryptography\" />
     <Folder Include="Extension\Core\" />
     <Folder Include="Extension\Types\" />
   </ItemGroup>

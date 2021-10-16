@@ -149,6 +149,20 @@ namespace EasyPrototypingTest
             }
         }
 
+        [TestMethod]
+        public void IsArgumentOutOfRange()
+        {
+            try
+            {
+                int size = 0;
+                size = size.IsArgumentOutOfRange("Size", size == 0);
+            }
+            catch (Exception ex)
+            {
+                Assert.IsTrue(ex is ArgumentOutOfRangeException);
+            }
+        }
+
         private void TestOfEmptyOrNull(string value)
         {
             value.IsArgumentEmptyOrNull(nameof(value));
