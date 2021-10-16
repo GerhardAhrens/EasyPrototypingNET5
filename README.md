@@ -25,8 +25,18 @@ string resut = input.This().ToYesNoString();
 ```
 Hier erfolgt die Auslistung der Extension erst nach dem ```.This()```.
 
+### Prüfen von Parameter Arguments
+```
+private void TestOfNullWithDefault(List<string> value)
+{
+	List<string> result = value.IsArgumentNull(nameof(value), new List<string>() { "Gerhard" });
+}
+
+```
+
 | Typ Extension for       | Description                                                                                                                                                                                                         |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Arguments               | Extension Methodes for Check Arguments                                                                                                                                                                              |
 | Bool                    | Extension Methodes of Typ bool                                                                                                                                                                                      |
 | Char                    | Extension Methodes of Typ char                                                                                                                                                                                      |
 
